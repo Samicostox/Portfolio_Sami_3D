@@ -89,7 +89,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-purple-600 md:text-5xl"
+          className="relative z-10 block font-bold text-neutral-500 transition-colors duration-500 group-hover:text-purple-600 text-xl md:text-5xl"
         >
           {heading.split(" ").map((word, index) => (
   <span key={index}>
