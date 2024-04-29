@@ -7,34 +7,34 @@ export const HoverImageLinks = () => {
     <section className="bg-neutral-950 p-4 md:p-0 md:mt-8">
       <div className=" max-w-5xl">
         <Link
-          heading="Project1"
-          subheading="Learn what we do here"
-          imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714381657/57shots_so_v6zzeu.png"
+          heading="Technical Documents Generation "
+          subheading="NLP & LLM fine-tuning to generate technical documents from a description."
+          imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714398118/723shots_so_dmpl1r.png"
           href="#"
         />
         <Link
-          heading="Project 2"
-          subheading="We work with great people"
+          heading="Innovation Studios"
+          subheading="Developed the Animated website of a consulting company offering technical services."
           imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714381657/57shots_so_v6zzeu.png"
-          href="#"
+          href="https://innovationstudios.uk/"
         />
         <Link
-          heading="Project 3"
+          heading="SafeQueen | Web App"
           subheading="Our work speaks for itself"
-          imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714381657/57shots_so_v6zzeu.png"
+          imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1708684564/SafeQueen_Paralax_u2x4xa.png"
           href="#"
         />
         <Link
-          heading="Project 4"
-          subheading="We want cool people"
-          imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714381657/57shots_so_v6zzeu.png"
+          heading="Nutrion Vault | Mobile App"
+          subheading="Hybrid food recommender system + Speech to text to recommendation feature"
+          imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714398338/nutrivault_kbmw7d.png"
           href="#"
         />
         <Link
-          heading="Project 5"
-          subheading="Incase you're bored"
-          imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714381657/57shots_so_v6zzeu.png"
-          href="#"
+          heading="OneCvaDay | Web App"
+          subheading="Developed and Market a web app registering Profesional CVs. 500+ Users"
+          imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714398540/246shots_so_1_cmjim3.png"
+          href="https://www.onecvaday.com/"
         />
       </div>
     </section>
@@ -89,21 +89,26 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-purple-600 md:text-6xl"
+          className="relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-purple-600 md:text-5xl"
         >
-          {heading.split("").map((l, i) => (
-            <motion.span
-              variants={{
-                initial: { x: 0 },
-                whileHover: { x: 16 },
-              }}
-              transition={{ type: "spring" }}
-              className="inline-block"
-              key={i}
-            >
-              {l}
-            </motion.span>
-          ))}
+          {heading.split(" ").map((word, index) => (
+  <span key={index}>
+    {word.split("").map((char, charIndex) => (
+      <motion.span
+        variants={{
+          initial: { x: 0 },
+          whileHover: { x: 16 },
+        }}
+        transition={{ type: "spring" }}
+        className="inline-block"
+        key={charIndex}
+      >
+        {char}
+      </motion.span>
+    ))}
+    {index < heading.split(" ").length - 1 && <span>&nbsp;</span>} {/* Add spaces explicitly */}
+  </span>
+))}
         </motion.span>
         <span className="relative z-10 mt-2 block text-base text-neutral-500 transition-colors duration-500 group-hover:text-purple-600">
           {subheading}
