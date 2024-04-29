@@ -7,7 +7,7 @@ export const HoverImageLinks = () => {
     <section className="bg-neutral-950 p-4 md:p-0 md:mt-8">
       <div className=" max-w-5xl">
         <Link
-          heading="Project 1"
+          heading="Project1"
           subheading="Learn what we do here"
           imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714381657/57shots_so_v6zzeu.png"
           href="#"
