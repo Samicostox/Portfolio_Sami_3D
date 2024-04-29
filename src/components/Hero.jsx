@@ -32,12 +32,10 @@ const Hero = () => {
             </h2>
           </Reveal>
           <Reveal>
-            <p className="pointer-events-auto max-w-xl text-sm text-slate-300 md:text-base">
-              I've spent the last 5 years building and scaling software for some
-              pretty cool companies. I also teach people to paint online (incase
-              you've got an empty canvas layin' around 🎨). Let's connect!
-            </p>
-          </Reveal>
+          <p className="pointer-events-auto max-w-xl text-sm md:text-base text-slate-300">
+            I am passionate about developing applications, having created over 10 apps with features ranging from AI to ML. What excites me the most is integrating intelligent capabilities into my applications, blending software development with data science to enhance user experience.
+          </p>
+        </Reveal>
         </div>
       </div>
 
