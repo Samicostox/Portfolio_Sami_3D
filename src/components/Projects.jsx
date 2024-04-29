@@ -10,7 +10,7 @@ export const HoverImageLinks = () => {
           heading="Technical Documents Generation "
           subheading="NLP & LLM fine-tuning to generate technical documents from a description."
           imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714398118/723shots_so_dmpl1r.png"
-          href="#"
+          href="/project"
         />
         <Link
           heading="Innovation Studios"
