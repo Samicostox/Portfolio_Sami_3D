@@ -16,25 +16,25 @@ export const HoverImageLinks = () => {
           heading="Innovation Studios"
           subheading="Developed the Animated website of a consulting company offering technical services."
           imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714381657/57shots_so_v6zzeu.png"
-          href="innovation_studios"
+          href="/innovation_studios"
         />
         <Link
           heading="SafeQueen | Web App"
           subheading="Our work speaks for itself"
           imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1708684564/SafeQueen_Paralax_u2x4xa.png"
-          href="#"
+          href="SafeQueen"
         />
         <Link
           heading="Nutrion Vault | Mobile App"
           subheading="Hybrid food recommender system + Speech to text to recommendation feature"
           imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714398338/nutrivault_kbmw7d.png"
-          href="#"
+          href="/Nutrition_Vault"
         />
         <Link
           heading="OneCvaDay | Web App"
           subheading="Developed and Market a web app registering Profesional CVs. 500+ Users"
           imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714398540/246shots_so_1_cmjim3.png"
-          href="https://www.onecvaday.com/"
+          href="/onecvaday"
         />
       </div>
     </section>
