@@ -179,7 +179,7 @@ export const Project_1 = [
      
       image:
         "https://res.cloudinary.com/dl2adjye7/image/upload/v1714381657/57shots_so_v6zzeu.png",
-      Website: "https://example.com/technical-docs",
+      Website: "https://innovationstudios.uk/services2",
       Github: "https://github.com/example/technical-docs",
         tags: [
           {
@@ -324,7 +324,7 @@ export const Project_1 = [
      
       image:
         "https://res.cloudinary.com/dl2adjye7/image/upload/v1708684564/SafeQueen_Paralax_u2x4xa.png",
-      Website: "https://example.com/technical-docs",
+      Website: "https://www.safequeen.co.uk/",
       Github: "https://github.com/example/technical-docs",
         tags: [
           {
@@ -615,7 +615,7 @@ export const Project_1 = [
      
       image:
         "https://res.cloudinary.com/dl2adjye7/image/upload/v1714398540/246shots_so_1_cmjim3.png",
-      Website: "https://example.com/technical-docs",
+      Website: "https://www.onecvaday.com/",
       Github: "https://github.com/example/technical-docs",
         tags: [
           {
