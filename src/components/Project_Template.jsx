@@ -42,13 +42,13 @@ const ProjectTemplate = ({ content }) => {
                 />
               )}
               {index === 0 && (
-                <div className="flex space-x-4 mb-4 -mt-4">
+                <div className="flex space-x-4 mb-4 -mt-4 ">
                   <RoundedSlideButton   link = { item.Website }/>
                   <Github link = { item.Github }/>
                 </div>
               )}
             </div>
-            <div className="text-base">
+            <div className="text-base md:pl-0 pl-6">
               {item.description}
             </div>
           </div>
