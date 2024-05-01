@@ -28,9 +28,12 @@ export const Project_1 = [
           </p>
         </>
       ),
-      badge: "React",
+   
       image:
         "https://res.cloudinary.com/dl2adjye7/image/upload/v1714398118/723shots_so_dmpl1r.png",
+      Website: "https://example.com/technical-docs",
+      Github: "https://github.com/example/technical-docs",
+          
         tags: [
           {
             text: "Web App",
@@ -114,66 +117,10 @@ export const Project_1 = [
           </p>
         </>
       ),
-      badge: "Changelog",
+
       image:
         "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        tags: [
-          {
-            text: "Web App",
-            color: "bg-red-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695583481/monitor_ewewup.png"
-                alt="Web App Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "React",
-            color: "bg-blue-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695503515/react_y3ribl.svg"
-                alt="React Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Django",
-            color: "bg-green-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695503370/django-icon_rxmwzx.svg"
-                alt="Django Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Figma",
-            color: "bg-orange-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1696322228/figma_joejhn.svg"
-                alt="Figma Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Heroku",
-            color: "bg-purple-200",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1696322208/heroku-icon_t8pyfm.svg"
-                alt="Heroku Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-        ],
+       
     },
     {
       title: "Lorem Ipsum Dolor Sit Amet",
@@ -189,66 +136,11 @@ export const Project_1 = [
           </p>
         </>
       ),
-      badge: "Launch Week",
+
+      
       image:
         "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=3506&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        tags: [
-          {
-            text: "Web App",
-            color: "bg-red-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695583481/monitor_ewewup.png"
-                alt="Web App Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "React",
-            color: "bg-blue-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695503515/react_y3ribl.svg"
-                alt="React Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Django",
-            color: "bg-green-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695503370/django-icon_rxmwzx.svg"
-                alt="Django Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Figma",
-            color: "bg-orange-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1696322228/figma_joejhn.svg"
-                alt="Figma Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Heroku",
-            color: "bg-purple-200",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1696322208/heroku-icon_t8pyfm.svg"
-                alt="Heroku Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-        ],
+     
     },
   ];
   
@@ -283,9 +175,12 @@ export const Project_1 = [
           </p>
         </>
       ),
-      badge: "React",
+
+     
       image:
         "https://res.cloudinary.com/dl2adjye7/image/upload/v1714398118/723shots_so_dmpl1r.png",
+      Website: "https://example.com/technical-docs",
+      Github: "https://github.com/example/technical-docs",
         tags: [
           {
             text: "Web App",
@@ -369,66 +264,10 @@ export const Project_1 = [
           </p>
         </>
       ),
-      badge: "Changelog",
+
       image:
         "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        tags: [
-          {
-            text: "Web App",
-            color: "bg-red-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695583481/monitor_ewewup.png"
-                alt="Web App Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "React",
-            color: "bg-blue-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695503515/react_y3ribl.svg"
-                alt="React Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Django",
-            color: "bg-green-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695503370/django-icon_rxmwzx.svg"
-                alt="Django Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Figma",
-            color: "bg-orange-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1696322228/figma_joejhn.svg"
-                alt="Figma Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Heroku",
-            color: "bg-purple-200",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1696322208/heroku-icon_t8pyfm.svg"
-                alt="Heroku Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-        ],
+       
     },
     {
       title: "Lorem Ipsum Dolor Sit Amet",
@@ -444,66 +283,10 @@ export const Project_1 = [
           </p>
         </>
       ),
-      badge: "Launch Week",
+
       image:
         "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=3506&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        tags: [
-          {
-            text: "Web App",
-            color: "bg-red-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695583481/monitor_ewewup.png"
-                alt="Web App Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "React",
-            color: "bg-blue-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695503515/react_y3ribl.svg"
-                alt="React Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Django",
-            color: "bg-green-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1695503370/django-icon_rxmwzx.svg"
-                alt="Django Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Figma",
-            color: "bg-orange-100",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1696322228/figma_joejhn.svg"
-                alt="Figma Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-          {
-            text: "Heroku",
-            color: "bg-purple-200",
-            icon: (
-              <img
-                src="https://res.cloudinary.com/dl2adjye7/image/upload/v1696322208/heroku-icon_t8pyfm.svg"
-                alt="Heroku Icon"
-                className="h-4 w-4"
-              />
-            ),
-          },
-        ],
+        
     },
   ];
   

@@ -6,8 +6,9 @@ const Git = () => {
   );
 };
 
-export const Github = () => {
+export const Github = ({link}) => {
   return (
+    <a href={link} className="no-underline">
     <button
       className={`
         relative z-0 flex items-center gap-2 overflow-hidden rounded-lg border-[1px]
@@ -29,6 +30,7 @@ export const Github = () => {
       <FiGithub className="text-lg"/> {/* Using the GitHub icon */}
       <span>GitHub</span>
     </button>
+    </a>
   );
 };
 

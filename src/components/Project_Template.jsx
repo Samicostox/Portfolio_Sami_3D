@@ -1,8 +1,8 @@
 import React from "react";
 import { TracingBeam } from "./Beams/tracing-beam.tsx";
 import { Reveal } from "./Hero_Text.jsx";
-import { RoundedSlideButton } from "./Beams/button.jsx";
-import { Github } from "./Beams/github.jsx";
+import { RoundedSlideButton } from "./Buttons/button.jsx";
+import { Github } from "./Buttons/github.jsx";
 
 const ProjectTemplate = ({ content }) => {
   return (
@@ -43,8 +43,8 @@ const ProjectTemplate = ({ content }) => {
               )}
               {index === 0 && (
                 <div className="flex space-x-4 mb-4 -mt-4">
-                  <RoundedSlideButton />
-                  <Github />
+                  <RoundedSlideButton   link = { item.Website }/>
+                  <Github link = { item.Github }/>
                 </div>
               )}
             </div>
