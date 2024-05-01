@@ -172,19 +172,18 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    testimonial: "I have worked with Sami at multiple occasion and I was truly impressed. He is hard working, passionate and wokrs extremely well in a team. ",
+    name: "Eric Teissandier",
+    designation: "CEO",
+    company: "4D",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I was tutoring Sami for his final year project. His submission was truly impressive, I am now using is paper as a referance for new students.",
+    name: "Ahmad Ibrahim",
+    designation: "Lead Teacher",
+    company: "University of Birmingham",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
