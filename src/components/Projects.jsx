@@ -10,13 +10,13 @@ export const HoverImageLinks = () => {
           heading="Technical Documents Generation "
           subheading="NLP & LLM fine-tuning to generate technical documents from a description."
           imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714398118/723shots_so_dmpl1r.png"
-          href="/innovation_studios"
+          href="/tech_docs"
         />
         <Link
           heading="Innovation Studios"
           subheading="Developed the Animated website of a consulting company offering technical services."
           imgSrc="https://res.cloudinary.com/dl2adjye7/image/upload/v1714381657/57shots_so_v6zzeu.png"
-          href="https://innovationstudios.uk/"
+          href="innovation_studios"
         />
         <Link
           heading="SafeQueen | Web App"

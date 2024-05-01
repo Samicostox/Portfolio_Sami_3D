@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./Pages/home.jsx";  // Ensure you import Home correctly based on your file structure
 
-import Project1 from "./Pages/Projects_Pages/Project_1.jsx";
+import ProjectTemplate from "./components/Project_Template.jsx";
+import { Project_1, Project_2 } from "./Content_Projects/Content.jsx";
 
 const App = () => {
   return (
@@ -12,7 +13,9 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Innovation_Studios" element={<Project1 />} />
+          <Route path="/Tech_Docs" element={<ProjectTemplate content={Project_1} />} />
+          <Route path="/Innovation_Studios" element={<ProjectTemplate content={Project_2} />} />
+          
         </Routes>
       </div>
     </BrowserRouter>
