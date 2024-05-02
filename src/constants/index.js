@@ -152,7 +152,8 @@ const experiences = [
       "Coordinated a team of 20 across various departments: development, recruiting, sales & marketing.",
       "Generated £40,000 in revenue in 1 year by negotiating deals for software engineering and data science projects and led the completion of 15 projects by managing 20 student developers.",
       "Applied Data Engineering expertise to manage, clean, sort, and transform data, ensuring its readiness and optimisation for client-specific projects, and facilitated seamless migration to client servers.",
-      "Tiktok (~300k views, 300+ followers, 7k+ likes)"
+      "Tiktok (~300k views, 300+ followers, 7k+ likes)",
+      "Created a platform that registers CVs from professionals at top companies, successfully attracting over 1000+ users."
     ],
   },
   {
